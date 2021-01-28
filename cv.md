@@ -25,3 +25,9 @@ I belive that *anybody will achieve a goal, if he really wants it*.
   * Agile
   * Dependable
   * Teamwork
+
+## Code examples 
+  * Python. [This function][1] converts English message to a diagram of signal, which coded by Morse code.
+  * JavaScript. [This repository][2] contains tasks from Codewars.
+  
+  
