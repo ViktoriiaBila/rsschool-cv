@@ -1,6 +1,6 @@
 # Viktoriia Bila 
 
-Contacts \
+**Contacts** \
 **C:** +38 095 485 08 25 \
 **E:** vika.bila97@gmail.com 
 
