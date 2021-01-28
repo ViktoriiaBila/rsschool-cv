@@ -7,3 +7,8 @@
 Marital status: married \
 Date of birth: 23th January 1997 \
 Nationality: Ukrainian
+
+## Objective
+I want to become a front-end developer. \
+Now I am styding HTML, CSS and JavaScript. Also I am styding English. My level in English is A1 at the moment.\
+I belive that *anybody will achieve a goal, if he really wants it*. 
