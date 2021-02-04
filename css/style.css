@@ -25,6 +25,18 @@ body {
 .examples,
 .education { padding-top: 15px; }
 
+.personal-information .contacts,
+.personal-information .information,
+.objective .objective-text,
+.tech-skills ul,
+.soft-skills ul,
+.examples ul,
+.education .wrapper-education,
+.footer ul {
+	font-size: 15px;
+	line-height: 20px;
+}
+
 .personal-information .contacts .contacts-header,
 .objective .objective-header,
 .tech-skills .tech-skills-header,
