@@ -89,3 +89,5 @@ body {
 .tech-skills li::before,
 .soft-skills li::before,
 .examples li::before { content: "✦ "; }
+
+.examples .examples-link { color: #000; }
