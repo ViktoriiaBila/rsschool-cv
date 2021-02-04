@@ -85,3 +85,7 @@ body {
 .soft-skills li,
 .examples li,
 .footer li { list-style-type: none; }
+
+.tech-skills li::before,
+.soft-skills li::before,
+.examples li::before { content: "✦ "; }
