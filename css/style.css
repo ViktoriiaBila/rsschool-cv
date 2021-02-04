@@ -57,3 +57,14 @@ body {
 	left: 350px;
 	border-radius: 50%;
 }
+
+.personal-information .contacts .contacts-header { font-size: 15px; }
+
+.personal-information .contacts { padding-top: 60px; }
+
+.personal-information .information { padding-top: 20px; }
+
+.personal-information .contacts .contacts-link {
+	color: #000;
+	text-decoration: none;
+}
