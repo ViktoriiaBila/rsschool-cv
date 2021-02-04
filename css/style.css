@@ -19,6 +19,12 @@ body {
 
 .container { padding: 0 40px; }
 
+.personal-information,
+.tech-skills,
+.soft-skills, 
+.examples,
+.education { padding-top: 15px; }
+
 .personal-information .contacts .contacts-header,
 .objective .objective-header,
 .tech-skills .tech-skills-header,
