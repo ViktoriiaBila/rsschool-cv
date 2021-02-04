@@ -36,6 +36,14 @@ body {
 	color: #fff;
 }
 
+.header .main-header {
+	padding-top: 10px;
+	color: #fff;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 .personal-information {
 	min-height: 305px;
 	position: relative;
