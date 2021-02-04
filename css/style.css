@@ -19,6 +19,17 @@ body {
 
 .container { padding: 0 40px; }
 
+.personal-information .contacts .contacts-header,
+.objective .objective-header,
+.tech-skills .tech-skills-header,
+.soft-skills .soft-skills-header,
+.examples .examples-header,
+.education .education-header {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
 .personal-information {
 	min-height: 305px;
 	position: relative;
