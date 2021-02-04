@@ -76,7 +76,8 @@ body {
 
 .personal-information .information { padding-top: 20px; }
 
-.personal-information .contacts .contacts-link {
+.personal-information .contacts .contacts-link,
+.footer .footer-link {
 	color: #000;
 	text-decoration: none;
 }
@@ -95,5 +96,15 @@ body {
 .education .wrapper-education {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer {
+	margin: 0 auto;
+	padding: 20px 150px 10px 150px;
+}
+
+.footer ul {
+	display: flex;
 	justify-content: space-between;
 }
