@@ -91,3 +91,9 @@ body {
 .examples li::before { content: "✦ "; }
 
 .examples .examples-link { color: #000; }
+
+.education .wrapper-education {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
