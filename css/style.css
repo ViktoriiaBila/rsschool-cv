@@ -1,0 +1,131 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html { font-family: "Roboto"; }
+
+body {
+	background-color: #faebd7;
+	padding-top: 20px;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+
+	background-color: #deb887;
+	box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.container { padding: 0 40px; }
+
+.personal-information,
+.objective,
+.tech-skills,
+.soft-skills, 
+.examples,
+.education { padding-top: 15px; }
+
+.personal-information .contacts,
+.personal-information .information,
+.objective .objective-text,
+.tech-skills ul,
+.soft-skills ul,
+.examples ul,
+.education .wrapper-education,
+.footer p {
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.personal-information .contacts .contacts-header,
+.objective .objective-header,
+.tech-skills .tech-skills-header,
+.soft-skills .soft-skills-header,
+.examples .examples-header,
+.education .education-header {
+	font-family: 'Open Sans';
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.header .main-header {
+	padding-top: 10px;
+	font-family: 'Open Sans';
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.personal-information .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.personal-information .contacts .contacts-header { font-size: 20px; }
+
+.personal-information .information { padding-top: 30px; }
+
+.personal-information .contacts .contacts-item .contacts-link {
+	color: #000;
+	text-decoration: none;
+}
+
+.personal-information .my-photo-figure .my-photo {
+	display: block;
+	width: 270px;
+	border-radius: 50%;
+}
+
+.personal-information .contacts .contacts-item,
+.tech-skills .tech-skills-item,
+.soft-skills .soft-skills-item,
+.examples .examples-item,
+.footer .footer-item { list-style-type: none; }
+
+.tech-skills .tech-skills-item::before,
+.soft-skills .soft-skills-item::before,
+.examples .examples-item::before { content: "✦ "; }
+
+.examples .examples-link { color: #000; }
+
+.education .wrapper-education {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.footer { padding: 15px 0 10px 0; }
+
+.footer .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer ul {
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+}
+
+.footer .footer-item .footer-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 32px;
+}
+
+.footer .footer-item .footer-link .github-img,
+.footer .footer-item .footer-link .youtube-img,
+.footer .footer-item .footer-link .rs-school-img { height: 22px; }
+
+.footer .footer-text {
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+}
