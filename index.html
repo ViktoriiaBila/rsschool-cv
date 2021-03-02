@@ -6,46 +6,58 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Viktoriia Bila</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
 </head>
 
 <body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<h1 class="main-header">Viktoriia Bila</h1>
+			</div>
+		</header>
 
-	<body>
-		<div class="wrapper">
-			<header class="header">
-				<div class="container">
-					<h1 class="main-header">Viktoriia Bila</h1>
-				</div>
-			</header>
-
+		<main>
 			<section class="personal-information">
 				<div class="container">
-					<img class="my-photo" src="./img/photo.JPG" alt="My photo" />
-					<div class="contacts">
-						<h3 class="contacts-header">Contacts </h3>
-						<div>
-							<span class="contacts-link-type">C:</span>
-							<a class="contacts-link" href="tel:+38 095 485 08 25">+38 095 485 08 25</a>
+					<div class="personal-information-wrapper">
+						<div class="contacts">
+							<h3 class="contacts-header">Contacts </h3>
+							<ul>
+								<li class="contacts-item">
+									<span class="contacts-link-type">Call:</span>
+									<a class="contacts-link" href="tel:+380954850825">+38 095
+										485 08 25</a>
+								</li>
+								<li class="contacts-item">
+									<span class="contacts-link-type">Email:</span>
+									<a class="contacts-link"
+										href="mailto:vika.bila97@gmail.com">vika.bila97@gmail.com</a>
+								</li>
+								<li class="contacts-item">
+									<span class="contacts-link-type">Telegram:</span>
+									<a class="contacts-link" href="https://telegram.me/viktoriiabila">@viktoriiabila</a>
+								</li>
+							</ul>
 						</div>
-						<div>
-							<span class="contacts-link-type">E:</span>
-							<a class="contacts-link" href="mailto:vika.bila97@gmail.com">vika.bila97@gmail.com</a>
+						<div class="information">
+							<div class="marital-status">
+								<span class="marital-status-type">Marital status:</span>
+								<span class="marital-status-text">married </span>
+							</div>
+							<div class="birth">
+								<span class="birth-type">Date of birth: </span>
+								<span class="birth-text">23th January 1997 </span>
+							</div>
+							<div class="nationality">
+								<span class="nationality-type">Nationality:</span>
+								<span class="nationality-text">Ukrainian</span>
+							</div>
 						</div>
 					</div>
-					<div class="information">
-						<div class="marital-status">
-							<span class="marital-status-type">Marital status:</span>
-							<span class="marital-status-text">married </span>
-						</div>
-						<div class="birth">
-							<span class="birth-type">Date of birth: </span>
-							<span class="birth-text">23th January 1997 </span>
-						</div>
-						<div class="nationality">
-							<span class="nationality-type">Nationality:</span>
-							<span class="nationality-text">Ukrainian</span>
-						</div>
-					</div>
+					<figure class="my-photo-figure">
+						<img class="my-photo" src="./img/photo.jpg" alt="My photo" />
+					</figure>
 				</div>
 			</section>
 
@@ -97,6 +109,7 @@
 									href="https://github.com/ViktoriiaBila/tasks-from-codewars">This repository</a>
 								contains tasks
 								from Codewars.</span></li>
+					</ul>
 				</div>
 			</section>
 
@@ -111,21 +124,35 @@
 					</div>
 				</div>
 			</section>
+		</main>
 
-			<footer class="footer">
-				<div class="container">
-					<ul>
-						<li class="footer-item"><a class="footer-link" href="tel:+38 095 485 08 25">+38 095 485 08
-								25</a>
-						</li>
-						<li class="footer-item">|</li>
-						<li class="footer-item"><a class="footer-link"
-								href="mailto:vika.bila97@gmail.com">vika.bila97@gmail.com</a></li>
-					</ul>
+		<footer class="footer">
+			<div class="container">
+				<ul>
+					<li class="footer-item"><a class="footer-link" href="tel:+380954850825">
+							<img class="call-img" src="./img/call.svg" alt="call phone"></a></li>
+
+					<li class="footer-item"><a class="footer-link" href="mailto:vika.bila97@gmail.com">
+							<img class="mail-img" src="./img/mail.svg" alt="mail"></a></li>
+
+					<li class="footer-item"><a class="footer-link" href="https://telegram.me/viktoriiabila">
+							<img class="telegram-img" src="./img/telegram.svg" alt="telegram"></a></li>
+
+					<li class="footer-item"><a class="footer-link" href="https://github.com/ViktoriiaBila">
+							<img class="github-img" src="./img/github.svg" alt="github"></a></li>
+
+					<li class="footer-item"><a class="footer-link" href="#">
+							<img class="youtube-img" src="./img/youtube.svg" alt="you tube"></a></li>
+
+					<li class="footer-item"><a class="footer-link" href="https://rs.school/js/">
+							<img class="rs-school-img" src="./img/rs-school-js.svg" alt="rs school js"></a></li>
+				</ul>
+				<div class="footer-text">
+					<p>© Viktoriia Bila <time>2021</time></p>
 				</div>
-			</footer>
-		</div>
-	</body>
+			</div>
+		</footer>
+	</div>
 </body>
 
 </html>
